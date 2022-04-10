@@ -8,8 +8,6 @@ const range = document.querySelector('#range');
 const rangeValue = document.querySelector('#range-span');
 const circle = document.querySelector('#circle');
 
-// text.textContent = range[value];
-
 button.addEventListener('click', function () {
     square.style.backgroundColor = text.value;
     text.value = '';
